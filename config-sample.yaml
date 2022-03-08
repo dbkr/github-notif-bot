@@ -1,0 +1,13 @@
+# Values in this config can also be specified through environment
+# variables, at the top level by setting the key as uppercase
+# (eg. export MATRIXACCESSTOKEN=token)
+# or for values within accounts, prefixing the account name
+# and an underscore, eg. export ALICE_GITHUBTOKEN=token
+matrixAccessToken: [token]
+matrixHsUrl: "https://matrix.org"
+accounts:
+  alice:
+    # Github personal access token.
+    # Just needs 'notifications' permission
+    githubToken: [github PAT]
+    matrixRoomId: "!someroom:matrix.org"

@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "types": [
+      "node",
+    ],
+    "target": "es6",
+    "outDir": "./lib",
+  },
+  "include": [
+    "./src/**/*.ts",
+  ],
+}
